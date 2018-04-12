@@ -1,10 +1,10 @@
-Medya Takip Merkezi Back Office
+Müşteriler
 =======
 
 The following are examples of supported markup.  On their own, these will not provide a datepicker widget; you will need to instantiate the datepicker on the markup.
 
 
-FTP ile Basılı Medya Alımı
+Müşteriler
 -----
 
 The simplest case: focusing the input (clicking or tabbing into it) will show the picker.
@@ -16,7 +16,7 @@ The simplest case: focusing the input (clicking or tabbing into it) will show th
 .. figure:: _static/screenshots/markup_input.png
     :align: center
 
-Yazılı Basın
+Dashboard
 ---------
 
 Adding the ``date`` class to an ``input-group`` bootstrap component will allow the ``input-group-addon`` elements to trigger the picker.
@@ -35,7 +35,7 @@ Adding the ``date`` class to an ``input-group`` bootstrap component will allow t
 
 .. _daterange:
 
-Görsel Basın
+Kullanıcılar
 ----------
 
 Using the ``input-daterange`` construct with multiple child inputs will instantiate one picker per input and link them together to allow selecting ranges.
@@ -59,7 +59,7 @@ Note that that ``input-daterange`` itself does not implement the ``datepicker`` 
         $(this).datepicker('clearDates');
     });
 
-E Basın
+Hesap Yetkileri
 ------------------
 
 Instantiating the datepicker on a simple div will give an embedded picker that is always visible.
@@ -87,3 +87,6 @@ Example to save the embedded datepicker value to a hidden field
             $('#datepicker').datepicker('getFormattedDate')
         );
     });
+
+Mail Servisi
+------------------
