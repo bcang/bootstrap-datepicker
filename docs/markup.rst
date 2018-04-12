@@ -1,7 +1,7 @@
-Müşteriler
+Back Office Kullanım Kılavuzu
 =======
 
-The following are examples of supported markup.  On their own, these will not provide a datepicker widget; you will need to instantiate the datepicker on the markup.
+Müşteri listesini görüntülenmesini sağlayar. Müşterilerle ilgil Kullanıcıların tanımlanmasını, Hesap Yetkilerinin verilmesini ve Mail Servis yönetimini sağlar.
 
 
 Müşteriler
@@ -14,6 +14,9 @@ The simplest case: focusing the input (clicking or tabbing into it) will show th
     <input type="text" class="form-control" value="02-16-2012">
 
 .. figure:: _static/screenshots/markup_input.png
+    :align: center
+
+.. figure:: _static/screenshots/musteriler.png
     :align: center
 
 Dashboard
